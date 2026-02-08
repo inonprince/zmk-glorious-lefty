@@ -33,6 +33,7 @@ function parseArgs(argv) {
     navTimeoutMs: DEFAULT_NAV_TIMEOUT_MS,
     fontWaitMs: DEFAULT_FONT_WAIT_MS,
     renderMode: DEFAULT_RENDER_MODE,
+    noMd: false,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -79,6 +80,9 @@ function parseArgs(argv) {
         break;
       case "--render-mode":
         args.renderMode = argv[++i];
+        break;
+      case "--no-md":
+        args.noMd = true;
         break;
       case "-h":
       case "--help":
@@ -141,6 +145,7 @@ Options:
   --timeout <ms>      Navigation timeout in ms (default: ${DEFAULT_NAV_TIMEOUT_MS}, 0 = no timeout)
   --font-wait <ms>    Max time to wait for fonts (default: ${DEFAULT_FONT_WAIT_MS})
   --render-mode <m>   screenshot (default) or kle-jpg (html2canvas-based)
+  --no-md             Skip generating the layers.md index file
 `);
 }
 
@@ -448,6 +453,30 @@ function resolveOutputPath(inputPath, args) {
   return path.join(path.dirname(inputPath), `${baseName}.jpg`);
 }
 
+function formatLayerName(filePath) {
+  const base = path.basename(filePath, path.extname(filePath));
+  return base
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function slugify(name) {
+  return name.toLowerCase().replace(/\s+/g, "-");
+}
+
+function generateLayersMd(layers, mdDir) {
+  const tocLines = layers.map(
+    ({ name }) => `- [${name}](#${slugify(name)})`
+  );
+
+  const sectionLines = layers.map(({ name, imgPath }) => {
+    const relativePath = path.relative(mdDir, imgPath);
+    return `## ${name}\n\n![${name}](${relativePath})`;
+  });
+
+  return `# Keyboard Layers\n\n${tocLines.join("\n")}\n\n${sectionLines.join("\n\n")}`;
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const inputFiles = discoverInputs(args.inputs);
@@ -497,6 +526,8 @@ async function main() {
       height: args.viewport.height,
       deviceScaleFactor: args.scale,
     });
+
+    const renderedLayers = [];
 
     for (const inputPath of inputFiles) {
       const raw = fs.readFileSync(inputPath, "utf8");
@@ -622,7 +653,19 @@ async function main() {
         });
       }
 
+      renderedLayers.push({
+        name: formatLayerName(inputPath),
+        imgPath: path.resolve(outPath),
+      });
       console.log(`Wrote ${outPath}`);
+    }
+
+    if (!args.noMd && renderedLayers.length > 0) {
+      const mdDir = args.outDir || path.dirname(renderedLayers[0].imgPath);
+      const mdPath = path.join(mdDir, "layers.md");
+      const mdContent = generateLayersMd(renderedLayers, mdDir);
+      fs.writeFileSync(mdPath, mdContent, "utf8");
+      console.log(`Wrote ${mdPath}`);
     }
   } finally {
     await browser.close();
