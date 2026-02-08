@@ -359,10 +359,10 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#c8e6c9",
+      "c": "#d1c4e9",
       "x": 7.25
     },
-    ",",
+    "!",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -372,9 +372,12 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#c8e6c9"
+      "c": "#c5cae9",
+      "fa": [
+        1
+      ]
     },
-    ";",
+    "&",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -384,9 +387,9 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#bbdefb"
+      "c": "#ffecb3"
     },
-    "(",
+    "#",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -396,9 +399,10 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#bbdefb"
+      "c": "#ffecb3",
+      "n": true
     },
-    ")"
+    "$"
   ],
   [
     {
@@ -565,7 +569,7 @@
       "g": false,
       "c": "#bbdefb"
     },
-    "{",
+    "]",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -575,9 +579,9 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#bbdefb"
+      "c": "#dcedc8"
     },
-    "}"
+    "<"
   ],
   [
     {
@@ -630,10 +634,10 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#d1c4e9",
+      "c": "#c8e6c9",
       "x": 16.25
     },
-    "!",
+    ";",
     {
       "t": "#9E9E9E",
       "p": "CHICKLET",
@@ -707,12 +711,12 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 7,
-      "f": 9,
+      "f": 7,
       "g": false,
-      "c": "#ffecb3",
+      "c": "#bbdefb",
       "x": 7.25
     },
-    "*",
+    "(",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -722,22 +726,9 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#ffecb3",
-      "n": true
+      "c": "#bbdefb"
     },
-    "$",
-    {
-      "t": "#000000",
-      "p": "CHICKLET",
-      "sm": "kailh-choc",
-      "sb": "kailh",
-      "st": "Kailh Choc v1",
-      "a": 7,
-      "f": 9,
-      "g": false,
-      "c": "#c5cae9"
-    },
-    "_",
+    ")",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -747,9 +738,21 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#dcedc8"
+      "c": "#bbdefb"
     },
-    "="
+    "{",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 7,
+      "g": false,
+      "c": "#bbdefb"
+    },
+    "}"
   ],
   [
     {
@@ -805,7 +808,7 @@
       "c": "#ffecb3",
       "x": 16.25
     },
-    "#",
+    "^",
     {
       "t": "#9E9E9E",
       "p": "CHICKLET",
@@ -881,34 +884,10 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 7,
-      "f": 7,
-      "g": false,
-      "c": "#ffecb3",
-      "x": 7.25
-    },
-    "/",
-    {
-      "t": "#000000",
-      "p": "CHICKLET",
-      "sm": "kailh-choc",
-      "sb": "kailh",
-      "st": "Kailh Choc v1",
-      "a": 7,
-      "f": 7,
-      "g": false,
-      "c": "#dcedc8"
-    },
-    "<",
-    {
-      "t": "#000000",
-      "p": "CHICKLET",
-      "sm": "kailh-choc",
-      "sb": "kailh",
-      "st": "Kailh Choc v1",
-      "a": 7,
       "f": 9,
       "g": false,
-      "c": "#dcedc8"
+      "c": "#dcedc8",
+      "x": 7.25
     },
     "-",
     {
@@ -918,11 +897,41 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 7,
+      "f": 8,
+      "g": false,
+      "c": "#c5cae9",
+      "fa": [
+        1
+      ]
+    },
+    "+",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 9,
+      "g": false,
+      "c": "#ffecb3",
+      "fa": [
+        1
+      ]
+    },
+    "*",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
       "f": 7,
       "g": false,
-      "c": "#dcedc8"
+      "c": "#ffecb3"
     },
-    "|"
+    "/"
   ],
   [
     {
@@ -976,12 +985,12 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 7,
-      "f": 7,
+      "f": 9,
       "g": false,
-      "c": "#dcedc8",
+      "c": "#c5cae9",
       "x": 15.25
     },
-    ">",
+    "_",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -989,11 +998,11 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 7,
-      "f": 8,
+      "f": 7,
       "g": false,
-      "c": "#d1c4e9"
+      "c": "#dcedc8"
     },
-    "~",
+    "|",
     {
       "t": "#9E9E9E",
       "p": "CHICKLET",
@@ -1187,11 +1196,11 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#bbdefb",
+      "c": "#dcedc8",
       "x": 18.25,
       "y": 3.25
     },
-    "]"
+    ">"
   ],
   [
     {
@@ -1203,29 +1212,12 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#ffecb3",
+      "c": "#dcedc8",
       "x": 18.25
     },
-    "^"
+    "="
   ],
   [
-    {
-      "t": "#000000",
-      "p": "CHICKLET",
-      "sm": "kailh-choc",
-      "sb": "kailh",
-      "st": "Kailh Choc v1",
-      "a": 7,
-      "f": 8,
-      "g": false,
-      "c": "#c5cae9",
-      "fa": [
-        1
-      ],
-      "x": 15.25,
-      "y": 0.5
-    },
-    "+",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -1238,7 +1230,9 @@
       "c": "#ffcdd2",
       "fa": [
         1
-      ]
+      ],
+      "x": 15.25,
+      "y": 0.5
     },
     "\"",
     {
@@ -1255,9 +1249,7 @@
         1
       ]
     },
-    "'"
-  ],
-  [
+    "'",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -1267,14 +1259,25 @@
       "a": 7,
       "f": 7,
       "g": false,
-      "c": "#c5cae9",
-      "fa": [
-        1
-      ],
+      "c": "#c8e6c9"
+    },
+    ","
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 8,
+      "g": false,
+      "c": "#d1c4e9",
       "x": 18.25,
       "y": -0.5
     },
-    "&"
+    "~"
   ],
   [
     {
@@ -1556,9 +1559,6 @@
       "f": 9,
       "g": false,
       "c": "#ffecb3",
-      "fa": [
-        1
-      ],
       "x": -1.9000000000000004,
       "y": -0.27500000000000036
     },
