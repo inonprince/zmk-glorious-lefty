@@ -1,0 +1,2001 @@
+[
+  {
+    "css": "/* legend */\n.keylabel10 div { \n    font-size: xx-small;\n    font-style: italic;\n    font-weight: bolder;\n    text-shadow: 1px 1px 2px yellow;\n}\n/* title */\ncenter h1 {\n    font-weight: bold;\n}\ncenter h2 {\n    margin-top: -0.5ex;\n    font-weight: bold;\n}\ncenter ul, ul.combos {\n    padding: 0;\n}\ncenter ul {\n    margin-top: 1em;\n    padding-top: 1em;\n    font-size: smaller;\n}\ncenter ul li, .combos li {\n    margin-top: 1ex;\n    list-style-type: none;\n}\ncenter ul li a {\n    font-weight: bold;\n}"
+  },
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true,
+      "x": 1.0
+    },
+    "C6",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C5",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C4",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C3",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C2",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C1",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true,
+      "x": 7.25
+    },
+    "C1",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C2",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C3",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C4",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C5",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "d": true
+    },
+    "C6"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "x": 3.0
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "x": 9.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true
+    },
+    ""
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "d": true,
+      "y": -0.5
+    },
+    "R1",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 6,
+      "g": true
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 6,
+      "g": true
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "x": 15.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true
+    },
+    "",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "d": true
+    },
+    "R1"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 5,
+      "g": false,
+      "c": "#FFF3E0",
+      "d": true,
+      "x": 7.0,
+      "y": -0.8500000000000001,
+      "w": 7.25,
+      "h": 4
+    },
+    "<center><h1>World Layer</h1><p>MoErgo Glove80 keyboard</p><ul><li><a href='https://github.com/manna-harbour/miryoku'>Miryoku</a> layers & home row mods</li><li><a href='https://github.com/sunaku/glove80-keymaps'>Glorious Engrammer</a> keymap</li><li>See <a href='https://is.gd/sunaku_glove80'>is.gd/sunaku_glove80</a></li></ul></center>"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "x": 3.0,
+      "y": -0.6499999999999999
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "x": 7.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    ""
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "d": true,
+      "y": -0.5
+    },
+    "R2",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 6,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "x": 15.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "d": true
+    },
+    "R2"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "x": 3.0,
+      "y": -0.5
+    },
+    "\n\u00ff\n\n\n\n\n\n\n\n\n\u00fd",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1"
+    },
+    "\u00f5\n\u00f6\n\u00f8\n\u00f4\n\n\n\n\n\u00f2\n\n\u00f3",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1"
+    },
+    "\n\u00fc\n\n\n\n\n\n\n\u00f9\n\n\u00fa",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 6,
+      "g": false,
+      "c": "#e8f5e9"
+    },
+    "<tt>\u03c0</tt>\n\u00b0",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "x": 7.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 3,
+      "g": false,
+      "c": "#D7CCC8",
+      "fa": [
+        2
+      ]
+    },
+    "sticky\n\n\n\nAlt\n\nLALT",
+    {
+      "t": "#000000",
+      "p": "SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 3,
+      "g": false,
+      "c": "#D7CCC8",
+      "fa": [
+        2
+      ]
+    },
+    "sticky\n\n\n\nRAlt\n\nRALT"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "d": true,
+      "y": -0.5
+    },
+    "R3",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 6,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 6,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "x": 15.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "d": true
+    },
+    "R3"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        2
+      ],
+      "x": 3.0,
+      "y": -0.5
+    },
+    "\n\u00ef\n\n\u00ee\n\n\n\n\n\u00ec\n\n\u00ed",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        2
+      ]
+    },
+    "\u00e3\n\u00e4\n\u00e5\n\u00e2\n\n\n\n\n\u00e0\n\n\u00e1",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 0,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        2
+      ]
+    },
+    "\u0153\n\u00eb\n\u00e6\n\u00ea\n\n\u00e6\n\n\n\u00e8\n\n\u00e9\n\u00e8",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 6,
+      "g": false,
+      "c": "#e8f5e9",
+      "fa": [
+        2
+      ]
+    },
+    "\u2014\n\u2013",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "x": 7.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 3,
+      "g": false,
+      "c": "#D7CCC8",
+      "fa": [
+        2
+      ],
+      "n": true
+    },
+    "sticky\n\n\n\nShift\n\nLSFT",
+    {
+      "t": "#000000",
+      "p": "SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 3,
+      "g": false,
+      "c": "#D7CCC8",
+      "fa": [
+        2
+      ]
+    },
+    "sticky\n\n\n\nCtrl\n\nLCTL",
+    {
+      "t": "#000000",
+      "p": "SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 3,
+      "g": false,
+      "c": "#D7CCC8",
+      "fa": [
+        2
+      ]
+    },
+    "sticky\n\n\n\nRCtrl\n\nRCTL"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "d": true,
+      "y": -0.5
+    },
+    "R4",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        2
+      ]
+    },
+    "\n\u00df\n\n\u00f1\nWin\n\n\n\n\u00b5\n\n\u00e7",
+    {
+      "t": "#000000",
+      "p": "SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 3,
+      "g": false,
+      "c": "#D7CCC8",
+      "fa": [
+        2
+      ],
+      "x": 15.25
+    },
+    "sticky\n\n\n\nRShift\n\nRSFT",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "d": true
+    },
+    "R4"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 6,
+      "g": false,
+      "c": "#e8f5e9",
+      "fa": [
+        2
+      ],
+      "x": 3.0,
+      "y": -0.5
+    },
+    "\u00b6\n\u00a7",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 6,
+      "g": false,
+      "c": "#e8f5e9",
+      "fa": [
+        2
+      ]
+    },
+    "\u00aa\n\u00ba",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 6,
+      "g": false,
+      "c": "#e8f5e9",
+      "fa": [
+        2
+      ]
+    },
+    "!\n\u00a1",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 6,
+      "g": false,
+      "c": "#e8f5e9",
+      "fa": [
+        2
+      ]
+    },
+    "?\n\u00bf",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "x": 7.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ]
+    },
+    ""
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        2
+      ],
+      "d": true,
+      "y": -0.5
+    },
+    "R5",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "\u00a5\n\u20ac\n\u20a9\n\u00a3\n\n\n\n\n\u00a4<sup><sup>\u20bf</sup></sup>\n\n$<sub>\u00a2</sub>",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "<sup>\u300c<sup>\ufe41</sup></sup>\n\u2018<sub>\u201c</sub>\n<sup>\u300e<sup>\ufe43</sub></sup>\n\u201a<sup>\u201e</sup>\n\n\n\n\n`\n\n\u2039<sub>\u00ab</sub>",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 15.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "\n\n\n\nLower",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true
+    },
+    "R5"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 6,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 3.0,
+      "y": -0.5
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "SA SPACE",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": false,
+      "c": "#ffff8d",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 9.25
+    },
+    "<img src=\"https://openclipart.org/download/278214/fingerprint.svg\" width=\"36\" height=\"36\" />\n\n\n\nWorld",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 4,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 4,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    ""
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "y": -0.5
+    },
+    "R6",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "\n<sup>\u2122<sub>\u2120</sub></sup>\n\n<sup>\u00a9<sub>\u00ae</sub></sup>",
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "<sup>\u300d<sub>\ufe42</sub></sup>\n\u2019<sub>\u201d</sub>\n<sup>\u300f<sub>\ufe44</sub></sup>\n\u201a<sup>\u201e</sup>\nAltGr\n\n\n\n\u00b4\n\n\u203a<sub>\u00bb</sub>",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 4,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 15.25
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ]
+    },
+    "\n\n\n\nLower",
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true
+    },
+    "R6"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": 1.0,
+      "y": 0.25,
+      "w": 4.75,
+      "h": 4
+    },
+    "",
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": 9.75,
+      "w": 4.75,
+      "h": 4
+    },
+    "<ul class=\"combos\"><li>Hold C2R6 to activate this layer.</li><li>Release C2R6 to deactivate this layer.</li><li>Tap C2R6 to unlock this layer, if locked.</li><li>Hold or tap sticky modifiers on right half to choose characters (refer to \u2139\ufe0f <b>Legend</b> \u2139\ufe0f) from the character cluster keys on left half.</li><li>Windows \"flashing mods\" compatibility tip: use LCTL+RSFT instead of LALT, and RCTL+RSFT instead of RALT.</li></ul>"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 9,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": 1.25,
+      "y": -0.75,
+      "w": 3.25,
+      "h": 1.25
+    },
+    "\u2139\ufe0f <b>Legend</b> \u2139\ufe0f"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 5,
+      "f": 5,
+      "g": false,
+      "c": "#e8f5e9",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 4.5,
+      "y": -0.75
+    },
+    "LSFT\nBase\n\n\n\ufe0f\u200d\u200d"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "FLAT",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 4,
+      "f": 6,
+      "g": false,
+      "c": "#e0f2f1",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 1.25,
+      "w": 4.25,
+      "h": 2.25
+    },
+    "LALT <br><small><sup><sub>(LCTL+RSFT)</sub></sup></small>\nLCTL\nRALT <br><small><sup><sub>(RCTL+RSFT)</sub></sup></small>\nRCTL\n\ufe0f\u200d\u200d\n\n\n\nRSFT\n\nLSFT<br>Base"
+  ],
+  [
+    {
+      "r": 25,
+      "rx": 6.25,
+      "ry": 9
+    },
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -0.40000000000000036,
+      "y": -3.9749999999999996
+    },
+    "T1"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -0.40000000000000036,
+      "y": -0.27500000000000036
+    },
+    "\n\n\n\nFunction"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "n": true,
+      "x": -1.0,
+      "y": 0.09999999999999964
+    },
+    "\n\n\n\nCursor"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -1.0,
+      "y": -0.20000000000000018
+    },
+    "T4"
+  ],
+  [
+    {
+      "r": 35
+    },
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": 0.2599999999999998,
+      "y": -3.675
+    },
+    "T2"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 0.25,
+      "y": -0.27500000000000036
+    },
+    ""
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -0.15000000000000036,
+      "y": 0.15000000000000036
+    },
+    "\n\n\n\nNumber"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -0.15000000000000036,
+      "y": -0.20000000000000018
+    },
+    "T5"
+  ],
+  [
+    {
+      "r": 45
+    },
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": 0.9000000000000004,
+      "y": -3.825
+    },
+    "T3"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 0.9000000000000004,
+      "y": -0.27500000000000036
+    },
+    "\n\n\n\nLower"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 4,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": 0.7000000000000002,
+      "y": 0.15000000000000036
+    },
+    "\n\n\n\nTyping"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": 0.7000000000000002,
+      "y": -0.20000000000000018
+    },
+    "T6"
+  ],
+  [
+    {
+      "r": -45,
+      "rx": 15
+    },
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -1.9000000000000004,
+      "y": -4.175
+    },
+    "T3"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -1.9000000000000004,
+      "y": -0.27500000000000036
+    },
+    "\n\n\n\nLower"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 4,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -1.6999999999999993,
+      "y": 0.15000000000000036
+    },
+    "\n\n\n\nTyping"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -1.6999999999999993,
+      "y": -0.20000000000000018
+    },
+    "T6"
+  ],
+  [
+    {
+      "r": -35
+    },
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -1.2599999999999998,
+      "y": -3.5250000000000004
+    },
+    "T2"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -1.25,
+      "y": -0.27500000000000036
+    },
+    ""
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -0.8499999999999996,
+      "y": 0.15000000000000036
+    },
+    "\n\n\n\nMouse"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -0.8499999999999996,
+      "y": -0.20000000000000107
+    },
+    "T5"
+  ],
+  [
+    {
+      "r": -25
+    },
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "x": -0.5999999999999996,
+      "y": -3.625
+    },
+    "T1"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 3,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "x": -0.5999999999999996,
+      "y": -0.27500000000000036
+    },
+    "\n\n\n\nSystem"
+  ],
+  [
+    {
+      "t": "#000000",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": true,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "n": true,
+      "y": 0.09999999999999964
+    },
+    "\n\n\n\nSymbol"
+  ],
+  [
+    {
+      "t": "#9E9E9E",
+      "p": "CHICKLET",
+      "sm": "kailh-choc",
+      "sb": "kailh",
+      "st": "Kailh Choc v1",
+      "a": 7,
+      "f": 5,
+      "g": false,
+      "c": "#cccccc",
+      "fa": [
+        0,
+        0,
+        3
+      ],
+      "d": true,
+      "y": -0.20000000000000018
+    },
+    "T4"
+  ]
+]
