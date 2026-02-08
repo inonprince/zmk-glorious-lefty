@@ -693,7 +693,7 @@ async function main() {
 
     if (!args.noMd && renderedLayers.length > 0) {
       const mdDir = args.outDir || path.dirname(renderedLayers[0].imgPath);
-      const mdPath = path.join(mdDir, "layers.md");
+      const mdPath = path.join(mdDir, "README.md");
       const mdContent = generateLayersMd(renderedLayers, mdDir);
       fs.writeFileSync(mdPath, mdContent, "utf8");
       console.log(`Wrote ${mdPath}`);
