@@ -29,7 +29,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
  * - next_is_two controls the output sequence (1,2,1,2,...)
  * - last_is_two drives the RGB indicator
  */
-static bool kvm_next_is_two = false;
+static bool kvm_next_is_two = true;
 static bool kvm_last_is_two = false;
 
 #if !IS_ENABLED(CONFIG_ZMK_SPLIT) || IS_ENABLED(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
