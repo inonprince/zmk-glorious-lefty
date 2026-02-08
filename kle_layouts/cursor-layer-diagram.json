@@ -460,7 +460,7 @@
       "st": "Kailh Choc v1",
       "a": 7,
       "f": 3,
-      "g": true,
+      "g": false,
       "c": "#cccccc"
     },
     "_C(A)",
@@ -639,7 +639,7 @@
       "st": "Kailh Choc v1",
       "a": 7,
       "f": 3,
-      "g": true,
+      "g": false,
       "c": "#cccccc"
     },
     "_C(N)",

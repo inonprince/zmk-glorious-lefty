@@ -248,6 +248,16 @@ def update_layout(
 
         key.label = content.label
         key.style = dict(content.style)
+
+        # Un-ghost keys whose binding changed from &none/&trans to a real
+        # binding.  The reference KLE marks empty positions as ghost (g=true)
+        # and that flag leaks through when the script generates new content
+        # for a position that was previously empty.
+        new_tokens = new_layer[idx]
+        is_empty = not new_tokens or new_tokens[0] in {"&none", "&trans"}
+        if not is_empty and key.style.get("g"):
+            key.style["g"] = False
+
         stats["updated"] += 1
 
     return stats, warnings
