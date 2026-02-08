@@ -1,0 +1,5 @@
+name: zmk-glorious-lefty
+build:
+  cmake: .
+  settings:
+    dts_root: .

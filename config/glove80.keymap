@@ -224,6 +224,7 @@
   #define FST GOL
   #define SLO PNK
   #define WRP CHU
+  #define KVM &kvm_state_color
 
   // ==== PER-KEY-RGB <section begins> ====
   / {
@@ -246,7 +247,7 @@
 
       BaseLayer {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
+          KVM ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -259,7 +260,7 @@
       #ifdef LAYER_macOS
       macOS {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
+          KVM ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ GRN CYN MAJ YLW ___                                     ___ YLW MAJ CYN GRN ___
@@ -273,7 +274,7 @@
       #ifdef LAYER_LeftPinky
       LeftPinky {
         bindings = <
-          ___ MAJ ___ ___ ___                                             ___ ___ ___ ___ ___
+          KVM MAJ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -287,7 +288,7 @@
       #ifdef LAYER_LeftRingy
       LeftRingy {
         bindings = <
-          ___ ___ CYN ___ ___                                             ___ ___ ___ ___ ___
+          KVM ___ CYN ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -301,7 +302,7 @@
       #ifdef LAYER_LeftMiddy
       LeftMiddy {
         bindings = <
-          ___ ___ ___ GRN ___                                             ___ ___ ___ ___ ___
+          KVM ___ ___ GRN ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -315,7 +316,7 @@
       #ifdef LAYER_LeftIndex
       LeftIndex {
         bindings = <
-          ___ ___ ___ ___ YLW                                             ___ ___ ___ ___ ___
+          KVM ___ ___ ___ YLW                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -329,7 +330,7 @@
       #ifdef LAYER_RightIndex
       RightIndex {
         bindings = <
-          ___ ___ ___ ___ ___                                             YLW ___ ___ ___ ___
+          KVM ___ ___ ___ ___                                             YLW ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -343,7 +344,7 @@
       #ifdef LAYER_RightMiddy
       RightMiddy {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ GRN ___ ___ ___
+          KVM ___ ___ ___ ___                                             ___ GRN ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -357,7 +358,7 @@
       #ifdef LAYER_RightRingy
       RightRingy {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ ___ CYN ___ ___
+          KVM ___ ___ ___ ___                                             ___ ___ CYN ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -371,7 +372,7 @@
       #ifdef LAYER_RightPinky
       RightPinky {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ ___ ___ MAJ ___
+          KVM ___ ___ ___ ___                                             ___ ___ ___ MAJ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
@@ -399,8 +400,8 @@
       #ifdef LAYER_Number
       Number {
         bindings = <
-          GDN GDN GDN GDN GDN                                             ___ ___ ___ ___ ___
-          SPG SPG SPG SPG SPG TEA                                             ___ COR COR COR COR ___
+          KVM GDN GDN GDN GDN                                             ___ ___ ___ ___ ___
+          GDN SPG SPG SPG SPG TEA                                             ___ COR COR COR COR ___
           SPG SPG GOL GOL GOL TEA                                             GOL COR COR COR COR GDN
           SPG SPG GOL GOL GOL TEA                                             TEA YLW GRN CYN MAJ YLW
           SPG SPG GOL GOL GOL TEA     SPG SPG SPG     ___ ___ ___     GDN PUR SPG SPG SPG TEA
@@ -427,7 +428,7 @@
       #ifdef LAYER_Emoji
       Emoji {
         bindings = <
-          ___ ___ ___ ___ ___                                             CYN ___ ___ CYN ___
+          KVM ___ ___ ___ ___                                             CYN ___ ___ CYN ___
           ___ ___ ___ ___ ___ ___                                     ___ CYN ___ ___ CYN ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ GDN PNK SPG AZU ___                                     CYN ___ ___ ___ ___ CYN
@@ -525,7 +526,7 @@
       #ifdef LAYER_World
       World {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
+          KVM ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ SPG AZU AZU AZU ___                                     ___ ___ CYN CYN ___ ___
           AZU AZU AZU AZU AZU ___                                     ___ YLW GRN GRN YLW ___
@@ -553,8 +554,8 @@
       #ifdef LAYER_Gaming
       Gaming {
         bindings = <
-          ORN ___ ___ ___ COR                                             TEA TEA TEA TEA TEA
-          ___ GDN GDN GDN GDN GDN                                     TEA TEA TEA TEA TEA TEA
+          KVM ___ ___ ___ COR                                             TEA TEA TEA TEA TEA
+          ORN GDN GDN GDN GDN GDN                                     TEA TEA TEA TEA TEA TEA
           ___ GDN GDN GDN GDN GDN                                     ___ ___ ___ ___ ___ TEA
           ___ COR ___ AZU ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ YLW AZU AZU AZU RED     YLW CYN ___     ORN AZU COR     ___ ___ ___ ___ ___ ___
@@ -581,7 +582,7 @@
       #ifdef LAYER_Factory
       Factory {
         bindings = <
-          ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
+          KVM ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
@@ -651,6 +652,7 @@
   #undef FST
   #undef WRP
   #undef SLO
+  #undef KVM
 #endif
 
 
@@ -10549,6 +10551,17 @@ macros {
 /* Automatically generated behavior definitions */
 / {
     behaviors {
+        kvm_switch: kvm_switch {
+            compatible = "zmk,behavior-kvm-switch";
+            label = "KVM_SWITCH";
+            #binding-cells = <0>;
+        };
+
+        kvm_state_color: kvm_state_color {
+            compatible = "zmk,behavior-kvm-state-color";
+            label = "KVM_STATE_COLOR";
+            #binding-cells = <0>;
+        };
 
 
     };
@@ -10734,7 +10747,7 @@ macros {
     &kp LS(N1)  &kp LS(GRAVE)  &kp LS(N6)  &kp LS(N4)  &kp LS(N3)  &kp LS(BSLH)                                                                             &none          &kp LS(TAB)              &kp DEL              &kp INS              &kp ESC          &none
     &kp LS(N5)   &kp LS(SEMI)      &kp N7      &kp N8      &kp N9     &kp LS(G)                                                                            &kp N0              &kp TAB             &kp BSPC            &kp SPACE              &kp RET          &kp E
  &kp LS(EQUAL)      &kp MINUS      &kp N4      &kp N5      &kp N6         &kp K                                                                             &kp X  &kp RIGHT_INDEX_MOD  &kp RIGHT_MIDDY_MOD  &kp RIGHT_RINGY_MOD  &kp RIGHT_PINKY_MOD      &sk LSHFT
-    &kp LS(N8)       &kp FSLH      &kp N1      &kp N2      &kp N3         &kp J  &kp COMMA  &kp LS(COMMA)  &kp LS(DOT)   &none              &none   &none   &kp F            &kp _FIND         &select_word         &select_line          &select_all  &kp LS(MINUS)
+    &kp LS(N8)       &kp FSLH      &kp N1      &kp N2      &kp N3         &kp J  &kp COMMA  &kp LS(COMMA)  &kp LS(DOT)   &none              &none   &none   &kvm_switch   &kp _FIND         &select_word         &select_line          &select_all  &kp LS(MINUS)
     &kp LS(N2)     &kp LS(N9)    &kp LBKT    &kp RBKT  &kp LS(N0)                   &kp N0        &kp DOT    &kp EQUAL   &none  &tog LAYER_Number   &none                    &kp _UNDO            &kp _REDO       &kp _FIND_PREV       &kp _FIND_NEXT          &none
             >;
         };

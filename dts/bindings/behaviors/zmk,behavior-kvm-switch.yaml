@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: MIT
+
+description: Toggle KVM target between Ctrl Ctrl 1 and Ctrl Ctrl 2
+
+compatible: "zmk,behavior-kvm-switch"
+
+include: zero_param.yaml
