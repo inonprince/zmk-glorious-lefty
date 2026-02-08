@@ -20,6 +20,10 @@ The goal is maximum efficiency in **both** modes:
 - **Both hands on keyboard**: All layers work with two-handed ergonomics, just mirrored from the original. Left hand has content, right hand has modifiers/editing (or vice versa depending on the layer). Same feel as Sunaku's, but flipped.
 - **Left hand on mouse**: Your right hand stays on the keyboard with full access to the most useful layers (Cursor, Number) via right thumb keys. The layer content for these is now under the right hand's fingers, so you can navigate, type numbers, and edit one-handed.
 
+## Layer Diagrams
+
+See [`kle_layouts/`](kle_layouts/) for KLE (Keyboard Layout Editor) JSON files and rendered JPG diagrams of every layer.
+
 ## What Changed from Sunaku's v42-rc9
 
 ### 1. Full Left-Right Mirror of All Non-Alpha Layers
@@ -121,10 +125,6 @@ All of Sunaku's core mechanics are preserved:
 | 27 | Lower | Shared modifier layer |
 | 28-30 | macOS layers | macOS-specific overlays |
 | 31 | Magic | Bluetooth profiles, RGB, layer toggles |
-
-## Layer Diagrams
-
-See [`kle_layouts/`](kle_layouts/) for KLE (Keyboard Layout Editor) JSON files and rendered JPG diagrams of every layer.
 
 ## Building
 
