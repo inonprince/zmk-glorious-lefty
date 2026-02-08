@@ -1025,13 +1025,13 @@
   #define KEY_LH_C3R5 DOT
   #define KEY_LH_C2R5 FSLH
   #define KEY_LH_C1R5 SEMI
-  #define KEY_LH_T1 DELETE
+  #define KEY_LH_T1 ESC
   #define LAY_LH_T1 LAYER_System
   #define KEY_LH_T2 LPAR
   #define KEY_LH_T3 RPAR
   #define KEY_RH_T3 _HOME
   #define KEY_RH_T2 _END
-  #define KEY_RH_T1 ESC
+  #define KEY_RH_T1 ENTER
   #define LAY_RH_T1 LAYER_Function
   #define KEY_RH_C1R5 J
   #define KEY_RH_C2R5 M
@@ -1117,13 +1117,13 @@
   #define KEY_LH_C3R5 C
   #define KEY_LH_C2R5 V
   #define KEY_LH_C1R5 B
-  #define KEY_LH_T1 DELETE
+  #define KEY_LH_T1 ESC
   #define LAY_LH_T1 LAYER_System
   #define KEY_LH_T2 LPAR
   #define KEY_LH_T3 RPAR
   #define KEY_RH_T3 _HOME
   #define KEY_RH_T2 _END
-  #define KEY_RH_T1 ESC
+  #define KEY_RH_T1 ENTER
   #define LAY_RH_T1 LAYER_Function
   #define KEY_RH_C1R5 K
   #define KEY_RH_C2R5 M
@@ -1145,7 +1145,7 @@
   #define LAY_LH_T6 LAYER_Lower
   #define KEY_RH_T6 INSERT
   #define LAY_RH_T6 LAYER_Lower
-  #define KEY_RH_T5 ENTER
+  #define KEY_RH_T5 DELETE
   #define LAY_RH_T5 LAYER_Number
   #define KEY_RH_T4 SPACE
   #define LAY_RH_T4 LAYER_Cursor
@@ -1209,13 +1209,13 @@
   #define KEY_LH_C3R5 J
   #define KEY_LH_C2R5 K
   #define KEY_LH_C1R5 X
-  #define KEY_LH_T1 DELETE
+  #define KEY_LH_T1 ESC
   #define LAY_LH_T1 LAYER_System
   #define KEY_LH_T2 LPAR
   #define KEY_LH_T3 RPAR
   #define KEY_RH_T3 _HOME
   #define KEY_RH_T2 _END
-  #define KEY_RH_T1 ESC
+  #define KEY_RH_T1 ENTER
   #define LAY_RH_T1 LAYER_Function
   #define KEY_RH_C1R5 B
   #define KEY_RH_C2R5 M
@@ -1237,7 +1237,7 @@
   #define LAY_LH_T6 LAYER_Lower
   #define KEY_RH_T6 INSERT
   #define LAY_RH_T6 LAYER_Lower
-  #define KEY_RH_T5 ENTER
+  #define KEY_RH_T5 DELETE
   #define LAY_RH_T5 LAYER_Number
   #define KEY_RH_T4 SPACE
   #define LAY_RH_T4 LAYER_Cursor
@@ -1301,13 +1301,13 @@
   #define KEY_LH_C3R5 C
   #define KEY_LH_C2R5 V
   #define KEY_LH_C1R5 B
-  #define KEY_LH_T1 DELETE
+  #define KEY_LH_T1 ESC
   #define LAY_LH_T1 LAYER_System
   #define KEY_LH_T2 LPAR
   #define KEY_LH_T3 RPAR
   #define KEY_RH_T3 _HOME
   #define KEY_RH_T2 _END
-  #define KEY_RH_T1 ESC
+  #define KEY_RH_T1 ENTER
   #define LAY_RH_T1 LAYER_Function
   #define KEY_RH_C1R5 N
   #define KEY_RH_C2R5 M
@@ -1329,7 +1329,7 @@
   #define LAY_LH_T6 LAYER_Lower
   #define KEY_RH_T6 INSERT
   #define LAY_RH_T6 LAYER_Lower
-  #define KEY_RH_T5 ENTER
+  #define KEY_RH_T5 DELETE
   #define LAY_RH_T5 LAYER_Number
   #define KEY_RH_T4 SPACE
   #define LAY_RH_T4 LAYER_Cursor
@@ -10582,8 +10582,8 @@ macros {
                         &none                        &kp N1                        &kp N2                        &kp N3                        &kp N4  &kp N5                                                                                                                                                           &kp N6                         &kp N7                         &kp N8                         &kp N9                         &kp N0                         &none
                         &none                       &kp SQT                     &kp COMMA                       &kp DOT                         &kp P   &kp Y                                                                                                                                                            &kp F                          &kp G                          &kp C                          &kp R                          &kp L                     &kp SLASH
                     &kp EQUAL  &LeftPinky (A, LAYER_Dvorak)  &LeftRingy (O, LAYER_Dvorak)  &LeftMiddy (E, LAYER_Dvorak)  &LeftIndex (U, LAYER_Dvorak)   &kp I                                                                                                                                                            &kp D  &RightIndex (H, LAYER_Dvorak)  &RightMiddy (T, LAYER_Dvorak)  &RightRingy (N, LAYER_Dvorak)  &RightPinky (S, LAYER_Dvorak)                     &kp MINUS
- &sticky_key_modtap LSFT LSFT                      &kp SEMI                         &kp Q                         &kp J                         &kp K   &kp X     &thumb LAYER_System DELETE            &parang_left    &parang_right                  &kp _HOME                   &kp _END  &thumb LAYER_Function ESC   &kp B                          &kp M                          &kp W                          &kp V                          &kp Z  &sticky_key_modtap RSFT RSFT
-         &magic LAYER_Magic 0                     &kp GRAVE                      &kp LBKT                      &kp RBKT       &thumb LAYER_Emoji BSLH          &thumb LAYER_Symbol BACKSPACE  &thumb LAYER_Mouse TAB  &mo LAYER_Lower  &thumb LAYER_Lower INSERT  &thumb LAYER_Number ENTER  &space LAYER_Cursor SPACE             &thumb LAYER_World PAGE_UP           &msc MOUSE_SCROLL_UP         &msc MOUSE_SCROLL_DOWN                      &kp PG_DN          &magic LAYER_Magic 0
+ &sticky_key_modtap LSFT LSFT                      &kp SEMI                         &kp Q                         &kp J                         &kp K   &kp X     &thumb LAYER_System ESC            &parang_left    &parang_right                  &kp _HOME                   &kp _END  &thumb LAYER_Function ENTER   &kp B                          &kp M                          &kp W                          &kp V                          &kp Z  &sticky_key_modtap RSFT RSFT
+         &magic LAYER_Magic 0                     &kp GRAVE                      &kp LBKT                      &kp RBKT       &thumb LAYER_Emoji BSLH          &thumb LAYER_Symbol BACKSPACE  &thumb LAYER_Mouse TAB  &mo LAYER_Lower  &thumb LAYER_Lower INSERT  &thumb LAYER_Number DELETE  &space LAYER_Cursor SPACE             &thumb LAYER_World PAGE_UP           &msc MOUSE_SCROLL_UP         &msc MOUSE_SCROLL_DOWN                      &kp PG_DN          &magic LAYER_Magic 0
             >;
         };
 
@@ -10593,7 +10593,7 @@ macros {
                         &none                         &kp N1                         &kp N2                         &kp N3                         &kp N4     &kp N5                                                                                                                                                                      &kp N6                          &kp N7                          &kp N8                          &kp N9                          &kp N0                         &none
                         &none                          &kp Q                          &kp Y                          &kp O                          &kp U  &kp EQUAL                                                                                                                                                                       &kp X                           &kp L                           &kp D                           &kp P                           &kp Z                         &none
                         &kp B  &LeftPinky (C, LAYER_Enthium)  &LeftRingy (I, LAYER_Enthium)  &LeftMiddy (A, LAYER_Enthium)  &LeftIndex (E, LAYER_Enthium)  &kp MINUS                                                                                                                                                                       &kp K  &RightIndex (H, LAYER_Enthium)  &RightMiddy (T, LAYER_Enthium)  &RightRingy (N, LAYER_Enthium)  &RightPinky (S, LAYER_Enthium)                         &kp W
- &sticky_key_modtap LSFT LSFT                        &kp SQT                      &kp COMMA                        &kp DOT                       &kp FSLH   &kp SEMI  &thumb LAYER_System DELETE            &parang_left              &parang_right                  &kp _HOME                       &kp _END  &thumb LAYER_Function ESC   &kp J                           &kp M                           &kp G                           &kp F                           &kp V  &sticky_key_modtap RSFT RSFT
+ &sticky_key_modtap LSFT LSFT                        &kp SQT                      &kp COMMA                        &kp DOT                       &kp FSLH   &kp SEMI  &thumb LAYER_System ESC            &parang_left              &parang_right                  &kp _HOME                       &kp _END  &thumb LAYER_Function ENTER   &kp J                           &kp M                           &kp G                           &kp F                           &kp V  &sticky_key_modtap RSFT RSFT
          &magic LAYER_Magic 0                      &kp GRAVE                       &kp LBKT                       &kp RBKT        &thumb LAYER_Emoji BSLH              &thumb LAYER_Symbol SPACE  &thumb LAYER_Mouse TAB  &thumb LAYER_Lower INSERT  &thumb LAYER_Lower DELETE  &thumb LAYER_Number BACKSPACE      &space LAYER_Cursor R              &thumb LAYER_World PAGE_UP            &msc MOUSE_SCROLL_UP          &msc MOUSE_SCROLL_DOWN                       &kp PG_DN          &magic LAYER_Magic 0
             >;
         };
@@ -10604,8 +10604,8 @@ macros {
                         &none                         &kp N1                         &kp N2                         &kp N3                         &kp N4  &kp N5                                                                                                                                                           &kp N6                          &kp N7                          &kp N8                          &kp N9                          &kp N0                         &none
                         &none                          &kp Q                          &kp W                          &kp F                          &kp P   &kp G                                                                                                                                                            &kp J                           &kp L                           &kp U                           &kp Y                        &kp SEMI                     &kp MINUS
                     &kp EQUAL  &LeftPinky (A, LAYER_Colemak)  &LeftRingy (R, LAYER_Colemak)  &LeftMiddy (S, LAYER_Colemak)  &LeftIndex (T, LAYER_Colemak)   &kp D                                                                                                                                                            &kp H  &RightIndex (N, LAYER_Colemak)  &RightMiddy (E, LAYER_Colemak)  &RightRingy (I, LAYER_Colemak)  &RightPinky (O, LAYER_Colemak)                       &kp SQT
- &sticky_key_modtap LSFT LSFT                          &kp Z                          &kp X                          &kp C                          &kp V   &kp B     &thumb LAYER_System DELETE            &parang_left    &parang_right                  &kp _HOME                   &kp _END  &thumb LAYER_Function ESC   &kp K                           &kp M                       &kp COMMA                         &kp DOT                        &kp FSLH  &sticky_key_modtap RSFT RSFT
-         &magic LAYER_Magic 0                      &kp GRAVE                       &kp LBKT                       &kp RBKT        &thumb LAYER_Emoji BSLH          &thumb LAYER_Symbol BACKSPACE  &thumb LAYER_Mouse TAB  &mo LAYER_Lower  &thumb LAYER_Lower INSERT  &thumb LAYER_Number ENTER  &space LAYER_Cursor SPACE              &thumb LAYER_World PAGE_UP            &msc MOUSE_SCROLL_UP          &msc MOUSE_SCROLL_DOWN                       &kp PG_DN          &magic LAYER_Magic 0
+ &sticky_key_modtap LSFT LSFT                          &kp Z                          &kp X                          &kp C                          &kp V   &kp B     &thumb LAYER_System ESC            &parang_left    &parang_right                  &kp _HOME                   &kp _END  &thumb LAYER_Function ENTER   &kp K                           &kp M                       &kp COMMA                         &kp DOT                        &kp FSLH  &sticky_key_modtap RSFT RSFT
+         &magic LAYER_Magic 0                      &kp GRAVE                       &kp LBKT                       &kp RBKT        &thumb LAYER_Emoji BSLH          &thumb LAYER_Symbol BACKSPACE  &thumb LAYER_Mouse TAB  &mo LAYER_Lower  &thumb LAYER_Lower INSERT  &thumb LAYER_Number DELETE  &space LAYER_Cursor SPACE              &thumb LAYER_World PAGE_UP            &msc MOUSE_SCROLL_UP          &msc MOUSE_SCROLL_DOWN                       &kp PG_DN          &magic LAYER_Magic 0
             >;
         };
 
@@ -10615,8 +10615,8 @@ macros {
                         &none                        &kp N1                        &kp N2                        &kp N3                        &kp N4  &kp N5                                                                                                                                                           &kp N6                         &kp N7                         &kp N8                         &kp N9                            &kp N0                         &none
                         &none                         &kp Q                         &kp W                         &kp E                         &kp R   &kp T                                                                                                                                                            &kp Y                          &kp U                          &kp I                          &kp O                             &kp P                     &kp MINUS
                     &kp EQUAL  &LeftPinky (A, LAYER_QWERTY)  &LeftRingy (S, LAYER_QWERTY)  &LeftMiddy (D, LAYER_QWERTY)  &LeftIndex (F, LAYER_QWERTY)   &kp G                                                                                                                                                            &kp H  &RightIndex (J, LAYER_QWERTY)  &RightMiddy (K, LAYER_QWERTY)  &RightRingy (L, LAYER_QWERTY)  &RightPinky (SEMI, LAYER_QWERTY)                       &kp SQT
- &sticky_key_modtap LSFT LSFT                         &kp Z                         &kp X                         &kp C                         &kp V   &kp B     &thumb LAYER_System DELETE            &parang_left    &parang_right                  &kp _HOME                   &kp _END  &thumb LAYER_Function ESC   &kp N                          &kp M                      &kp COMMA                        &kp DOT                          &kp FSLH  &sticky_key_modtap RSFT RSFT
-         &magic LAYER_Magic 0                     &kp GRAVE                      &kp LBKT                      &kp RBKT       &thumb LAYER_Emoji BSLH          &thumb LAYER_Symbol BACKSPACE  &thumb LAYER_Mouse TAB  &mo LAYER_Lower  &thumb LAYER_Lower INSERT  &thumb LAYER_Number ENTER  &space LAYER_Cursor SPACE             &thumb LAYER_World PAGE_UP           &msc MOUSE_SCROLL_UP         &msc MOUSE_SCROLL_DOWN                         &kp PG_DN          &magic LAYER_Magic 0
+ &sticky_key_modtap LSFT LSFT                         &kp Z                         &kp X                         &kp C                         &kp V   &kp B     &thumb LAYER_System ESC            &parang_left    &parang_right                  &kp _HOME                   &kp _END  &thumb LAYER_Function ENTER   &kp N                          &kp M                      &kp COMMA                        &kp DOT                          &kp FSLH  &sticky_key_modtap RSFT RSFT
+         &magic LAYER_Magic 0                     &kp GRAVE                      &kp LBKT                      &kp RBKT       &thumb LAYER_Emoji BSLH          &thumb LAYER_Symbol BACKSPACE  &thumb LAYER_Mouse TAB  &mo LAYER_Lower  &thumb LAYER_Lower INSERT  &thumb LAYER_Number DELETE  &space LAYER_Cursor SPACE             &thumb LAYER_World PAGE_UP           &msc MOUSE_SCROLL_UP         &msc MOUSE_SCROLL_DOWN                         &kp PG_DN          &magic LAYER_Magic 0
             >;
         };
 
