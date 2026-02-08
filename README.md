@@ -1,34 +1,46 @@
-# Glorious Lefty -- A Left-Hand-First ZMK Keymap for Glove80
+# Glorious Lefty -- A ZMK Keymap for Left-Handed Mousers on Glove80
 
-A customized [MoErgo Glove80](https://www.moergo.com/collections/glove80-702702) ZMK keymap based on [Sunaku's Glorious Engrammer v42-rc9](https://github.com/sunaku/glove80-keymaps), systematically mirrored for **left-hand-dominant** workflows.
+A customized [MoErgo Glove80](https://www.moergo.com/collections/glove80-702702) ZMK keymap based on [Sunaku's Glorious Engrammer v42-rc9](https://github.com/sunaku/glove80-keymaps), systematically mirrored for people who **mouse with their left hand**.
 
 ## Why "Lefty"?
 
-When your right hand is on a mouse or trackpad, it can't reach the keyboard. Sunaku's original layout places navigation, numbers, symbols, and function keys primarily under the **right** hand -- great for a standard workflow, but wasteful when mousing.
+Sunaku's Glorious Engrammer is a brilliantly designed keymap, but it assumes you mouse with your **right** hand. Its layer activations and content placement are optimized for a right-handed mousing workflow: when your right hand leaves the keyboard for the mouse, your left hand can still activate layers and access their content.
 
-This keymap **mirrors every non-alpha layer** so that all the action-oriented keys live under the **left hand**, letting you navigate, type numbers, trigger shortcuts, and switch layers without ever lifting your right hand off the mouse.
+If you're a **left-handed mouser**, this breaks down. For example:
+
+- In the original, the **Mouse layer** is activated by a right thumb key. But if your left hand is already on a physical mouse, you don't need the ZMK mouse layer -- and that right thumb key is wasted on a layer you'll never use while mousing.
+- In the original, **Cursor** and **Number** layers are activated by the left thumb. But when your left hand is on the mouse, you can't reach those left thumb keys at all.
+
+This keymap **mirrors the entire layout** -- both layer activations and layer content -- so that a left-handed mouser gets the same hybrid keyboard+mouse efficiency that right-handed mousers enjoy with the original.
+
+### The Hybrid Workflow
+
+The goal is maximum efficiency in **both** modes:
+
+- **Both hands on keyboard**: All layers work with two-handed ergonomics, just mirrored from the original. Left hand has content, right hand has modifiers/editing (or vice versa depending on the layer). Same feel as Sunaku's, but flipped.
+- **Left hand on mouse**: Your right hand stays on the keyboard with full access to the most useful layers (Cursor, Number) via right thumb keys. The layer content for these is now under the right hand's fingers, so you can navigate, type numbers, and edit one-handed.
 
 ## What Changed from Sunaku's v42-rc9
 
 ### 1. Full Left-Right Mirror of All Non-Alpha Layers
 
-Every functional layer has been mirrored across the split:
+Every functional layer has its content mirrored across the split. What was under the left hand is now under the right, and vice versa:
 
 | Layer | Original (Sunaku) | Lefty |
 |-------|-------------------|-------|
-| **Cursor** | Arrows/Home/End on right | Arrows/Home/End on left |
-| **Number** | Numpad on right | Numpad on left |
-| **Symbol** | Symbols on right | Symbols on left |
-| **Function** | F-keys/media on right | F-keys/media on left |
-| **System** | System controls on right | System controls on left |
-| **Mouse** | Mouse movement on right | Mouse movement on left |
+| **Cursor** | Arrows/Home/End on right, editing on left | Arrows/Home/End on left, editing on right |
+| **Number** | Numpad on right, editing on left | Numpad on left, editing on right |
+| **Symbol** | Symbols on left, editing on right | Symbols on right, editing on left |
+| **Function** | F-keys/media on right, editing on left | F-keys/media on left, editing on right |
+| **System** | System controls mirrored | System controls mirrored |
+| **Mouse** | Movement on right, clicks on left | Movement on left, clicks on right |
 | **Mouse speed layers** | Same pattern | Same pattern mirrored |
 
-The editing keys (Esc, Del, Ins, Tab, Space, Enter, Backspace) and home row mods are placed on the **opposite** hand from the active content, preserving the same ergonomic balance -- just flipped.
+The editing keys (Esc, Del, Ins, Tab, Space, Enter, Backspace) and home row mods always go on the **opposite** hand from the active content, preserving the same two-handed ergonomic balance -- just flipped.
 
-### 2. Thumb Cluster Reassignment
+### 2. Thumb Cluster Layer Reassignment
 
-Thumb key layers and actions have been swapped between hands:
+Thumb key layer activations are swapped between hands so the right hand can access the most useful layers when the left hand is on the mouse:
 
 | Thumb Key | Original | Lefty |
 |-----------|----------|-------|
@@ -39,11 +51,11 @@ Thumb key layers and actions have been swapped between hands:
 | LH T5 (lower) | Delete / Number | Tab / Mouse |
 | RH T5 (lower) | Tab / Mouse | Enter / Number |
 
-This puts the most commonly used layers (Symbol, Mouse) on the left thumb and less frequent ones (Cursor, Number) on the right, so you can access symbols and mouse control without the right hand.
+Key insight: **Cursor** and **Number** (the most useful one-handed layers) are now on the **right** thumb, accessible when the left hand is on the mouse. **Mouse** and **Symbol** move to the **left** thumb for when both hands are on the keyboard.
 
 ### 3. Combo Key Mirroring
 
-All thumb key combos have been correspondingly swapped (left-hand combos become right-hand and vice versa) to maintain consistency with the thumb reassignments.
+All thumb key combos have been correspondingly swapped (left-hand combos become right-hand and vice versa) to stay consistent with the thumb reassignments.
 
 ### 4. Dvorak as Default Layer
 
