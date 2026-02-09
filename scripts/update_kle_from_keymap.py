@@ -297,6 +297,12 @@ def swap_bottom_text_blocks(layout: KLELayout) -> bool:
                     'Shift (tap: sticky one-shot)', 'RShift (tap: sticky one-shot)'
                 ).replace(
                     '__TMP_SHIFT__', 'Shift (tap: sticky one-shot)'
+                ).replace(
+                    'Ctrl+Tab menu (tap: switch)', '__TMP_TAB_MENU__'
+                ).replace(
+                    'Win+Tab menu (tap: switch)', 'Ctrl+Tab menu (tap: switch)'
+                ).replace(
+                    '__TMP_TAB_MENU__', 'Win+Tab menu (tap: switch)'
                 )
                 d.label = re.sub(
                     r"<li>([^<]*?) = ([^<]*?)</li>",

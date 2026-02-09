@@ -1217,7 +1217,7 @@
       "w": 5,
       "h": 4
     },
-    "<ul class=\"combos right\"><li>RShift (tap: sticky one-shot) = Combo T1+T4</li><li>CapsWord on/off = Combo T4+T5</li><li>CapsLock on/off = Combo T1+T5</li><li>Alt+Tab menu (tap: switch) = Combo T2+T5</li><li>Ctrl+Tab menu (tap: switch) = Combo T3+T6</li><li>Win+Tab menu (tap: switch) = Combo T2+T6</li><li>sticky RAlt (AltGr) = Combo T1+T2</li><li>sticky Globe (macOS) or Win = Combo T2+T3</li><li>Gaming layer (key auto-repeat) = Combo T5+T6</li><li>unlock all, go to base layer = Combo T1+T2+T3</li><li>Typing layer on/off = Combo C1R5+C2R6</li></ul>"
+    "<ul class=\"combos right\"><li>RShift (tap: sticky one-shot) = Combo T1+T4</li><li>CapsWord on/off = Combo T4+T5</li><li>CapsLock on/off = Combo T1+T5</li><li>Alt+Tab menu (tap: switch) = Combo T2+T5</li><li>Win+Tab menu (tap: switch) = Combo T3+T6</li><li>Ctrl+Tab menu (tap: switch) = Combo T2+T6</li><li>sticky RAlt (AltGr) = Combo T1+T2</li><li>sticky Globe (macOS) or Win = Combo T2+T3</li><li>Gaming layer (key auto-repeat) = Combo T5+T6</li><li>unlock all, go to base layer = Combo T1+T2+T3</li><li>Typing layer on/off = Combo C1R5+C2R6</li></ul>"
   ],
   [
     {
