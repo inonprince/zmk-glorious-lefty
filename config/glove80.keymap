@@ -1547,11 +1547,11 @@ combos {
   };
 
   // T2+T6
-  #if defined(_G_TAB) && defined(LAYER_Cursor)
+  #if defined(_G_TAB) && defined(LAYER_Typing)
   combo_win_tab_switcher_left {
     timeout-ms = <COMBO_FIRING_DECAY>;
     key-positions = <POS_RH_T2 POS_RH_T6>;
-    bindings = <&mod_tab_chord _G_TAB LAYER_Cursor>;
+    bindings = <&mod_tab_chord _G_TAB LAYER_Typing>;
     layers = <0 1 2 3 4>;
   };
   #endif
@@ -1568,7 +1568,7 @@ combos {
   combo_ctrl_tab_switcher_left {
     timeout-ms = <COMBO_FIRING_DECAY>;
     key-positions = <POS_RH_T3 POS_RH_T6>;
-    bindings = <&mod_tab_chord LCTL LAYER_Cursor>;
+    bindings = <&mod_tab_chord LCTL LAYER_Typing>;
     layers = <0 1 2 3 4>;
   };
 
