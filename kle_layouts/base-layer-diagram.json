@@ -645,7 +645,7 @@
       "st": "Kailh Choc v1",
       "a": 7,
       "f": 3,
-      "g": true,
+      "g": false,
       "c": "#cccccc"
     },
     "",
@@ -1037,13 +1037,13 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 5,
-      "f": 4,
+      "f": 3,
       "g": false,
       "c": "#cccccc",
       "x": 3.0,
       "y": -0.5
     },
-    "{\n[",
+    "<i class='fa fa-mouse-pointer'></i>\nup\n\n\n\n\nScroll",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -1051,11 +1051,11 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 5,
-      "f": 4,
+      "f": 3,
       "g": false,
       "c": "#cccccc"
     },
-    "}\n]",
+    "<i class='fa fa-mouse-pointer'></i>\ndown\n\n\n\n\nScroll",
     {
       "t": "#000000",
       "p": "SPACE",
@@ -1088,11 +1088,11 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 5,
-      "f": 3,
+      "f": 4,
       "g": false,
       "c": "#cccccc"
     },
-    "<i class='fa fa-mouse-pointer'></i>\nup\n\n\n\n\nScroll",
+    "{\n[",
     {
       "t": "#000000",
       "p": "CHICKLET",
@@ -1100,11 +1100,11 @@
       "sb": "kailh",
       "st": "Kailh Choc v1",
       "a": 5,
-      "f": 3,
+      "f": 4,
       "g": false,
       "c": "#cccccc"
     },
-    "<i class='fa fa-mouse-pointer'></i>\ndown\n\n\n\n\nScroll"
+    "}\n]"
   ],
   [
     {
