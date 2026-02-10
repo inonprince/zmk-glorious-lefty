@@ -21,6 +21,7 @@
 
 /* On demand includes */
 #include <dt-bindings/zmk/pointing.h>
+#include <interfaces/hid-trackball.dtsi>
 
 /* Helper Macros, based on https://github.com/urob/zmk-helpers/ */
 
@@ -87,7 +88,7 @@
 #define LAYER_MouseFast 23
 #define LAYER_MouseWarp 24
 #define LAYER_Gaming 25
-#define LAYER_Factory 26
+#define LAYER_Trackball 26
 #define LAYER_Lower 27
 #define LAYER_macOS_left 28
 #define LAYER_macOS_right 29
@@ -579,17 +580,17 @@
       };
       #endif
 
-      #ifdef LAYER_Factory
-      Factory {
+      #ifdef LAYER_Trackball
+      Trackball {
         bindings = <
-          KVM ___ ___ ___ ___                                             ___ ___ ___ ___ ___
+          ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
-          ___ ___ ___ ___ ___ ___     ___ ___ RED     ___ ___ ___     ___ ___ ___ ___ ___ ___
-          RED ___ ___ ___ ___         ___ ___ ___     ___ ___ ___         ___ ___ ___ ___ ___
+          ___ ___ ___ ___ ___ ___     ___ ___ ___     ___ ___ ___     BLU BLU BLU ___ ___ ___
+          ___ ___ ___ ___ ___         ___ ___ ___     ___ ___ ___         SPG ___ ___ ___ ___
         >;
-        layer-id = <LAYER_Factory>;
+        layer-id = <LAYER_Trackball>;
       };
       #endif
 
@@ -10797,8 +10798,8 @@ macros {
 
         layer_System {
             bindings = <
-      &none               &none               &none               &none               &none                                                                                                                                      &none            &none            &none            &none   &none
-      &none               &none               &none               &none               &none            &none                                                                                                 &none               &none            &none            &none            &none   &none
+      &none               &none               &none               &none               &none                                                                                                                           &tb_tg_scroll     &tb_cyc_dpi   &tb_bootloader            &none   &none
+      &none               &none               &none               &none               &none            &none                                                                                                 &none         &tbs_mt 0 0            &none            &none            &none   &none
       &none     &rgb_ug RGB_SPI     &rgb_ug RGB_SAI     &rgb_ug RGB_HUI     &rgb_ug RGB_BRI  &rgb_ug RGB_EFF                                                                                       &rgb_ug RGB_EFF     &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI   &none
       &none     &rgb_ug RGB_SPD     &rgb_ug RGB_SAD     &rgb_ug RGB_HUD     &rgb_ug RGB_BRD  &rgb_ug RGB_EFR                                                                                       &rgb_ug RGB_EFR     &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD   &none
  &kp _SLEEP           &kp _LOCK            &kp SLCK          &kp KP_NUM            &kp CAPS  &rgb_ug RGB_TOG  &tog LAYER_System  &linux_magic_sysrq      &none  &kp _POWER  &kp _SLEEP  &kp _LOCK  &rgb_ug RGB_TOG     &kp PAUSE_BREAK        &kp PSCRN        &kp K_APP            &none   &none
@@ -10861,14 +10862,14 @@ macros {
             >;
         };
 
-        layer_Factory {
+        layer_Trackball {
             bindings = <
-               &kp F1    &kp F2   &kp F3    &kp F4     &kp F5                                                                                  &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
-            &kp EQUAL    &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                                                                  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-              &kp TAB     &kp Q    &kp W     &kp E      &kp R   &kp T                                                                   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-              &kp ESC     &kp A    &kp S     &kp D      &kp F   &kp G                                                                   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
-            &kp GRAVE     &kp Z    &kp X     &kp C      &kp V   &kp B  &kp LSHFT  &kp LCTRL    &lower  &kp LGUI  &kp RCTRL  &kp RSHFT   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
- &magic LAYER_Magic 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT           &kp BSPC    &kp DEL  &kp LALT  &kp RALT    &kp RET  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
+ &trans  &trans  &trans  &trans  &trans                                                                              &trans     &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                              &trans  &trans     &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                              &trans  &trans     &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                              &trans  &trans     &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &mkp MB1  &mkp MB3  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &tbs_mt 0 0  &trans     &trans     &trans  &trans
             >;
         };
 
@@ -10922,10 +10923,15 @@ macros {
        &to 0             &to 1            &to 2            &to 3  &tog LAYER_macOS  &tog LAYER_Typing                                                               &none   &none   &none   &none             &none           &none
        &none   &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI   &rgb_ug RGB_BRI    &rgb_ug RGB_TOG                                                               &none   &none   &none   &none             &none           &none
  &bootloader   &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD   &rgb_ug RGB_BRD    &rgb_ug RGB_EFF                                                               &none   &none   &none   &none             &none     &bootloader
-  &sys_reset             &none            &none            &none             &none              &none   &bt_2   &bt_3  &tog LAYER_Factory   &none   &none   &none   &none   &none   &none   &none             &none      &sys_reset
+  &sys_reset             &none            &none            &none             &none              &none   &bt_2   &bt_3  &none   &none   &none   &none   &none   &none   &none   &none             &none      &sys_reset
        &none  &tog LAYER_macOS            &none            &none             &none                      &bt_0   &bt_1        &out OUT_USB   &none   &none   &none           &none   &none   &none  &tog LAYER_macOS           &none
             >;
         };
 
     };
+};
+
+&hid_trackball_interface {
+    automouse-layer = <LAYER_Trackball>;
+    automouse-layer-timeout-ms = <600>;
 };

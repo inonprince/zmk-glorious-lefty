@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: darknao
       url-base: https://github.com/darknao
+    - name: inonprince
+      url-base: https://github.com/inonprince
   projects:
     - name: zmk
       remote: darknao
       revision: rgb-layer-24.12
       import: app/west.yml
+    - name: zmk-hid-trackball-interface
+      remote: inonprince
+      revision: main
   self:
     path: config
