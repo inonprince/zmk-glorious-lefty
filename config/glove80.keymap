@@ -10638,7 +10638,7 @@ macros {
  &trans              &trans              &trans              &trans              &trans  &trans                                                                                            &trans               &trans               &trans               &trans               &trans  &trans
  &trans  &kp LEFT_PINKY_KEY  &kp LEFT_RINGY_KEY  &kp LEFT_MIDDY_KEY  &kp LEFT_INDEX_KEY  &trans                                                                                            &trans  &kp RIGHT_INDEX_KEY  &kp RIGHT_MIDDY_KEY  &kp RIGHT_RINGY_KEY  &kp RIGHT_PINKY_KEY  &trans
  &trans              &trans              &trans              &trans              &trans  &trans  &kp KEY_LH_T1         &trans         &trans         &trans         &trans  &kp KEY_RH_T1  &trans               &trans               &trans               &trans               &trans  &trans
- &trans              &trans              &trans              &trans     &kp KEY_LH_C2R6          &kp KEY_LH_T4  &kp KEY_LH_T5  &kp KEY_LH_T6  &kp KEY_RH_T6  &kp KEY_RH_T5  &kp KEY_RH_T4              &kp LEFT            &kp DOWN               &kp UP            &kp RIGHT  &trans
+ &trans              &trans              &kp UP            &kp DOWN     &kp KEY_LH_C2R6          &kp KEY_LH_T4  &kp KEY_LH_T5  &kp KEY_LH_T6  &kp KEY_RH_T6  &kp KEY_RH_T5  &kp KEY_RH_T4              &kp LEFT            &kp DOWN               &kp UP            &kp RIGHT  &trans
             >;
         };
 
